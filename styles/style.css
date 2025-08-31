@@ -313,7 +313,7 @@ html {
 }
 
 .membership__title {
-  max-width: 574px;
+  max-width: 800px; /* 574px original */
   margin: 0 auto;
   text-align: center;
   font-size: 44px;
@@ -325,11 +325,14 @@ html {
   list-style-type: none;
   padding: 0;
   margin: 100px 0 0;
-  /* Agrega estilos */
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Separacion entre flex */
 }
 
 .step {
-  /* Agrega estilos */
+  flex-direction: row;
+  width: 220px;
 }
 
 .step__title {
