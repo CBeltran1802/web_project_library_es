@@ -16,8 +16,8 @@
           <ul class="nav__links">
             <li><a class="nav__link" href="#staff">Los preferidos de nuestro staff</a></li>
             <li><a class="nav__link" href="#events">Eventos</a></li>
-            <li><a class="nav__link" href="#">Conviértete en miembro</a></li>
-            <li><a class="nav__link" href="#">Contactos</a></li>
+            <li><a class="nav__link" href="#membership">Conviértete en miembro</a></li>
+            <li><a class="nav__link" href="#contact">Contactos</a></li>
           </ul>
         </nav>
         <div class="header__content">
@@ -155,7 +155,7 @@
             </div>
           </div> <!--cierre de Events__cover-->
       </section>
-      <section class="membership">
+      <section class="membership" id="membership">
         <h2 class="membership__title">¡Convertirse en miembro de la biblioteca es muy fácil!</h2>
         <ul class="membership__steps">
           <li class="step">
@@ -189,12 +189,12 @@
         </ul>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="contact">
       <div class="footer__columns">
         <div class="footer__logo">
-          <img src="./images/logo_white.svg" alt="Logo">
+          <img src="./images/logo_white.svg" alt="Logo" class="footer__logo">
         </div>
-        <div class="footer__columns footer__column_content_hours">
+        <div class="footer__column footer__column_content_hours">
           <h3 class="footer__column-heading">Horario de apertura</h3>
           <ul class="footer__list"> <!-- Usar ul cuando se añadan listas-->
             <li class="footer__list-item">Lunes a Viernes: 9 a.m. - 8:00 p.m.</li>
@@ -213,7 +213,7 @@
           </ul>
         </div>
       </div>
-      <h4>© 2024 Roberto Beltran en Tripleten</h4>
+      <h4 class="footer__copyright">© 2024 Roberto Beltran</h4>
     </footer>
   </body>
 </html>
