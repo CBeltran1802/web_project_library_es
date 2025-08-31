@@ -313,7 +313,7 @@ html {
 }
 
 .membership__title {
-  max-width: 800px; /* 574px original */
+  max-width: 574px; /* 574px original */
   margin: 0 auto;
   text-align: center;
   font-size: 44px;
@@ -331,8 +331,16 @@ html {
 }
 
 .step {
-  flex-direction: row;
-  width: 220px;
+  flex: 0 0 220px;
+  background-color: transparent;
+  padding: 0px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 14px;
+  gap: 10px;
 }
 
 .step__title {
