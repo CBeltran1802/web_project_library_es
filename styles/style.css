@@ -354,40 +354,49 @@ html {
 
 .footer {
   box-sizing: border-box;
+  background-color: #202020;
+  position: relative;
+  padding: 60px 80px 60px 80px;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__columns {
+
 }
 
 .footer__column_content_hours {
+
 }
 
 .footer__column_content_social {
+
 }
 
 .footer__logo {
+
 }
 
 .footer__column-heading {
+
 }
 
 .footer__list {
-  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+
 }
 
 .footer__list-item {
+
 }
 
 .footer__column-link {
-  color: white;
-  text-decoration: none;
+
 }
 
 .footer__social-icon {
+
 }
 
 .footer__copyright {
+
 }
